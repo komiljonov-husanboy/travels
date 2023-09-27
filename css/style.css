@@ -1,0 +1,40 @@
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+
+.inner{
+    margin-top: 100px;
+    text-align: center;
+    margin: 0;
+
+}
+.Title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(7, 61, 61);
+    
+}
+.number{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+font-size: 25px;
+background-color: rgb(131, 246, 246);
+color: rgb(187, 179, 179);
+
+}
+.Btn{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(131, 246, 246);
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    border: none;
+    border-radius: 10px;
+}
