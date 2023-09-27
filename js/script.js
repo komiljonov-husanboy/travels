@@ -1,7 +1,4 @@
-
-
-alert('Assalomu aleykum saytga xush kelibsiz !')
-
+alert('Assalomu aleykum saytga xush kelibsiz !');
 
 var elTitle = document.querySelector('.Title');
 var elNumber = document.querySelector('.number');
@@ -11,12 +8,14 @@ var a = 500 * 11000;
 var b = 250 * 11000;
 var c = 120 * 13000;
 
-var v = (a + b + c);
-elTitle.textContent= "sayohat uchun yetarli mablag' - " + v +"so'm";
+var v = a + b + c;
+elTitle.textContent = "sayohat uchun yetarli mablag' :    " + v + " so'm";
+
 elBtn.addEventListener('click', function() {
-    if (elNumber.value > v) {
-        elTitle.textContent ="Tabriklayman sayohat uchun mablag' yetdi, sizning pulingiz -" + elNumber.value + "so'm";
+    if (elNumber.value > v || elNumber.value == v) {
+        elTitle.textContent = "Tabriklayman sayohat uchun mablag' yetdi, sizning pulingiz : " + elNumber.value + " so'm";
+        elBtn.disabled = true; // Tekshirish tugmasini o'chirish
     } else {
-        elTitle.textContent ="Afsuski sayohat uchun mablag' yetmaydi, sizning pulingiz -" + elNumber.value + "so'm";
+        elTitle.textContent = "Afsuski sayohat uchun mablag' yetmaydi, sizning pulingiz : " + elNumber.value + " so'm";
     }
 });
