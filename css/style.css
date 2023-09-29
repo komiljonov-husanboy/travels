@@ -41,3 +41,19 @@ color: rgb(98, 53, 53);
     border: none;
     border-radius: 10px;
 }
+.btt{
+    margin-top: 20px;
+    width: 400px;
+    height: 50px;
+    background-color: rgb(131, 246, 175);
+    color: rgb(113, 96, 96);
+    text-align: center;
+    font-size: 23px;
+    border: none;
+    border-radius: 10px; 
+    margin: 0 auto;  
+}
+.btt a{
+    text-decoration: none;
+    color:  rgb(113, 96, 96);;
+}
